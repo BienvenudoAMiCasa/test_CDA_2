@@ -1,0 +1,53 @@
+
+input.large
+{    
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+}
+
+div#typeRepas
+{
+    font-size: 24px;
+}
+
+form
+{
+    font-size: 24px;
+}
+
+form input#txtRepasSemaine
+{
+    width: 540px;
+    height: 40px;
+    font-size: 36px;
+}
+
+form input#numJour
+{
+    width: 120px;
+    height: 40px;
+    font-size: 36px;
+}
+
+input:valid
+{
+    border: 1px solid black;
+}
+
+input:invalid
+{
+    border: 1px solid red;
+}
+
+input.extralarge
+{    
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+}
+
+div#menusJour
+{
+    font-size: 24px;
+}

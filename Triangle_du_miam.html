@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	<meta charset="utf-8">
+	<title>Triangle du Miam</title>
+	<link rel="stylesheet" href="style.css">
+	<script charset="utf-8" src="TriangleMiam.js"></script>
+	</head>
+	<body>
+		<div id="typeRepas">
+			<p>Choix de repas :
+				<input id="btnSushi" class="large" title="Sushi" type="button" onclick="ajoutRepas('sushi');" value="">
+				<input id="btnPizza" class="large" title="Pizza" type="button" onclick="ajoutRepas('pizza');" value="">
+				<input id="btnBroccoli" class="large" title="Repas Diététique" type="button" onclick="ajoutRepas('broccoli');" value="">
+			</p>
+		</div>
+		<form id="frm" accept-charset="utf-8">
+			<label for="repasSemaine">Entrez la commande : </label>
+			<input type="text" id="txtRepasSemaine" name="repasSemaine" required minlength="28" maxlength="28"
+			pattern="" placeholder="14 repas pour une semaine"><br>
+			<br>
+			<label for="numJour">Entrez un jour : </label>
+			<input type="number" id="numJour" name="numJour" required min="1" max="52" placeholder="1 à 52">
+			<br>
+			<br>
+			<input id="btn.AfficherRepas" class="extralarge" type="button" onclick="afficherRepas();" value="Afficher les repas">
+		</form>
+		<br>
+		<br>
+		<div id="menusJour" name="menusJour"></div>
+	</body>
+</html>
